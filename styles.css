@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #e7e5e5;
+    color: #db3069;
+    transition: all 0.2s;
+    
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    scale: 8;
+    background-color: #009fb7;
+}
+button:hover{
+    scale: 8.1;
+}
+button:active{
+    scale: 8;
+}
+span{
+    scale: 6;
+}
